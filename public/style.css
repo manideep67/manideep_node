@@ -1,0 +1,105 @@
+#navbar {
+    display: grid;
+    min-height: 50px;
+    grid-auto-flow: column;
+    background-color: #a4a9dd;
+    grid-gap: 1.5em;
+    padding: 0 40px;    
+  }
+.gray-bg{
+    color: white;
+    margin-left: 40px;  
+    }
+#links {
+    display: grid;
+    justify-content: right;
+    align-content: center;
+    grid-auto-flow: column;
+    grid-gap: 1.5em;
+    font-family: "Open Sans", sans-serif;
+  }
+#links a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+#links a:hover {
+    color: #0474bc;
+  }
+#about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.square {
+    border-style: solid;
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+    margin-left: 200px;
+}
+#content{
+    margin-left: 100px;
+}
+h2 {
+    font-family: 'Megrim', cursive;
+    font-weight: bold;
+    font-size: medium;
+    margin: 20px;
+    margin-left: 100px;
+    display: grid;
+}
+ul {
+    margin-left: 150px;
+    display: grid;
+}
+#Education{
+    display: grid;
+}
+#Experience{
+    display: grid;
+}
+.work{
+    margin-left: 210px;
+}
+#Blogs{
+    display: grid;
+}
+body {
+    background-color: #f7eed4;
+    margin: 20px;
+    border: solid 2px;
+}
+@media only screen and (max-width:500px){
+    #navbar{
+        font-size: 10px;
+    }
+    body{
+        margin: 0em;
+    }
+    .square {
+        border-style: solid;
+        width: 200px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 20px;
+        margin-left: 50px;
+    }
+    p{
+        font-size: 10px;
+    }
+    h2 {       
+        margin: 0px;
+        margin-left: 50px;
+    }
+    ul {
+        margin-left: 65px;
+    }
+    li{
+        font-size: 10px;
+        margin-left: -100px;
+    }
+    }
